@@ -30,10 +30,10 @@ jobs:
     - name: Test & publish code coverage
         # Publish code coverage on Code Climate
         # https://github.com/paambaati/codeclimate-action
-        uses: paambaati/codeclimate-action@v2.7.4
+        uses: nightshiftmaster/codeclimate-action@v2.7.4
         # Add Code Climate secret key
         env:
-          CC_TEST_REPORTER_ID: ${{ 2edd5377620d3919c83fe7acd9f0d10fb525080d80c055cdbd8ebdc0855191dc }}
+          CC_TEST_REPORTER_ID: ${{ secrets.CC_TEST_REPORTER_ID }}
         with:
           coverageCommand: make test-coverage
           debug: true
