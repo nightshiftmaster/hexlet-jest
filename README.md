@@ -1,0 +1,1 @@
+[![Node.js CI](https://github.com/nightshiftmaster/hexlet-jest/workflows/Node.js%20CI/badge.svg)](https://github.com/nightshiftmaster/hexlet-jest/actions)
